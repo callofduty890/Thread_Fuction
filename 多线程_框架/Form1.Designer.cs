@@ -51,6 +51,8 @@
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
+            this.button14 = new System.Windows.Forms.Button();
+            this.button15 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -326,6 +328,28 @@
             this.button13.UseVisualStyleBackColor = true;
             this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
+            // button14
+            // 
+            this.button14.Font = new System.Drawing.Font("微软雅黑", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button14.Location = new System.Drawing.Point(566, 387);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(172, 60);
+            this.button14.TabIndex = 5;
+            this.button14.Text = "线程挂起";
+            this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
+            // 
+            // button15
+            // 
+            this.button15.Font = new System.Drawing.Font("微软雅黑", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button15.Location = new System.Drawing.Point(744, 387);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(172, 60);
+            this.button15.TabIndex = 5;
+            this.button15.Text = "线程恢复";
+            this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
@@ -346,6 +370,8 @@
             this.Controls.Add(this.ucProcessLine4);
             this.Controls.Add(this.ucProcessLine3);
             this.Controls.Add(this.label5);
+            this.Controls.Add(this.button15);
+            this.Controls.Add(this.button14);
             this.Controls.Add(this.button11);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label4);
@@ -386,6 +412,8 @@
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button12;
         private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Button button14;
+        private System.Windows.Forms.Button button15;
     }
 }
 

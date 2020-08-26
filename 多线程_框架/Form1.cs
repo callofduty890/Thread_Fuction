@@ -142,5 +142,21 @@ namespace 多线程_框架
         {
             Thread_Start(5);
         }
+        //线程挂起
+        private void button14_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < thread.Length; i++)
+            {
+                thread[i].Suspend();
+            }
+        }
+        //线程恢复
+        private void button15_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < thread.Length; i++)
+            {
+                thread[i].Resume();
+            }
+        }
     }
 }
